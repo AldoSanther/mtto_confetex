@@ -2,7 +2,7 @@
 {
     'name': 'Mantenimiento Confetex',
     'category': 'Manufacturing/Maintenance',
-    'version': '15.0.1',
+    'version': '14.0.1',
     'author': 'José Miguel López Roano',
     'summary': 'Módulo para ordenes de mantenimiento y control de máquinas y herramientas en grupo Confetex',
     'description': '''Modulo para un control de peticiones de mantenimiento y control de máquinas y herramienta con 
