@@ -18,6 +18,7 @@
     ],
     'data': [
         'data/secuencia.xml',
+        'views/maintenance_equipment_menu_vw.xml',
     ],
     'installable': True,
     'auto_install': False,
