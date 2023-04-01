@@ -17,6 +17,7 @@
         'mail',
     ],
     'data': [
+        'data/secuencia.xml',
     ],
     'installable': True,
     'auto_install': False,
