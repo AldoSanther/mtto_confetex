@@ -8,7 +8,7 @@ logger = logging.getLogger(__name__)
 class MaintenanceEquipmentInmo(models.Model):
     _inherit = 'maintenance.equipment'
 
-    codigo_interno = fields.Char(string="Carácter", readonly=True, required=False, index=True)
+    codigo_interno = fields.Char(string="Código interno", readonly=True, required=False, index=True)
     documentos_ids = fields.One2many(
         comodel_name="maintenance.equipment.document",
         inverse_name="id_equipo_mantenimiento",
@@ -17,7 +17,7 @@ class MaintenanceEquipmentInmo(models.Model):
     )
     id_seccion = fields.Many2one(
         comodel_name="maintenance.equipment.section",
-        string="many2one",
+        string="Sección",
         required=False,
         copy=True
     )

@@ -38,7 +38,7 @@
               name="Tipos de documento"
               parent="maintenance.menu_maintenance_configuration"
               sequence="10"
-              action="maintenance_equipment_document_act_open_window"/>
+              action="maintenance_equipment_document_type_act_open_window"/>
     <menuitem id="mv_equipos_maquinas_herramientas"
               name="Máquinas y herramientas"
               parent="maintenance.menu_equipment_form"

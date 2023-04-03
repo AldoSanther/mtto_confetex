@@ -19,6 +19,10 @@
     'data': [
         'data/secuencia.xml',
         'views/maintenance_equipment_menu_vw.xml',
+        'views/maintenance_channel_gd_vw.xml',
+        'views/maintenance_equipment_document_vw.xml',
+        'views/maintenance_equipment_document_type_vw.xml',
+        'views/maintenance_equipment_invw.xml',
     ],
     'installable': True,
     'auto_install': False,

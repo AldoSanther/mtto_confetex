@@ -37,3 +37,4 @@ class MaintenanceEquipmentDocument(models.Model):
     )
     url_google_drive = fields.Char(string="URL Documento", required=False)
     valor = fields.Float(string="Valor", required=False)
+    active = fields.Boolean(string='Activo', default=True)
