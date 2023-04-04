@@ -17,6 +17,7 @@
         'mail',
     ],
     'data': [
+        'data/conf_maintenance_mtto_confetex.xml',
         'data/secuencia.xml',
         'views/maintenance_equipment_menu_vw.xml',
         'views/maintenance_channel_gd_vw.xml',
