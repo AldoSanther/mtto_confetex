@@ -17,6 +17,8 @@
         'mail',
     ],
     'data': [
+        'security/security.xml',
+        'security/ir.model.access.csv',
         'data/conf_maintenance_mtto_confetex.xml',
         'data/secuencia.xml',
         'views/maintenance_equipment_menu_vw.xml',
