@@ -21,6 +21,8 @@
         'security/ir.model.access.csv',
         'data/conf_maintenance_mtto_confetex.xml',
         'data/secuencia.xml',
+        'report/maintenance_reports.xml',
+        'report/maintenance_templates.xml',
         'views/maintenance_equipment_menu_vw.xml',
         'views/maintenance_channel_gd_vw.xml',
         'views/maintenance_equipment_document_vw.xml',

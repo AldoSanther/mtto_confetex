@@ -38,7 +38,7 @@
                 <xpath expr="//field[@name='model']" position="before">
                     <field name="numero_economico"/>
                 </xpath>
-                <xpath expr="//field[@name='effective_date']" position="after">
+                <xpath expr="//field[@name='effective_date']" position="after" groups="mtto_confetex.group_documentos_mantenimiento">
                     <field name="fecha_compra"/>
                 </xpath>
                 <notebook position="inside">
