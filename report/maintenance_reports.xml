@@ -11,6 +11,7 @@
             <field name="print_report_name">'Características y documentos en equipo - %s' % (object.codigo_interno)</field>
             <field name="binding_model_id" ref="maintenance.model_maintenance_equipment"/>
             <field name="binding_type">report</field>
+            <field name="groups_id" eval="[(4, ref('group_documentos_mantenimiento'))]"/>
         </record>
 
         <record id="report_equipment" model="ir.actions.report">
@@ -22,6 +23,7 @@
             <field name="print_report_name">'Características en equipo - %s' % (object.codigo_interno)</field>
             <field name="binding_model_id" ref="maintenance.model_maintenance_equipment"/>
             <field name="binding_type">report</field>
+            <field name="groups_id" eval="[(4, ref('maintenance.group_equipment_manager')), (4, ref('base.group_user'))]"/>
         </record>
 
         <record id="report_equipment_barcode" model="ir.actions.report">
@@ -33,6 +35,7 @@
             <field name="print_report_name">'Equipos código de barras'</field>
             <field name="binding_model_id" ref="maintenance.model_maintenance_equipment"/>
             <field name="binding_type">report</field>
+            <field name="groups_id" eval="[(4, ref('group_documentos_mantenimiento'))]"/>
         </record>
 
     </data>
